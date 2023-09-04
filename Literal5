@@ -1,0 +1,8 @@
+class Literal {
+    public static void main(String[] args) {
+        long l=999_999_999;
+        float f=123_456.56f;
+        System.out.println(f);
+        System.out.println(l);
+    }
+}
