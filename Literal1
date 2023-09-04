@@ -1,0 +1,8 @@
+class Literal{
+    public static void main(String[] args) {
+        byte b=15;
+        short D=15;
+        int i=15;
+        System.out.println(b);
+    }
+}
