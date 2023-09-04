@@ -1,0 +1,7 @@
+//for float
+class Literal{
+    public static void main(String[] args) {
+        long l=19999999999L;
+        System.out.println(1);
+        }
+}
