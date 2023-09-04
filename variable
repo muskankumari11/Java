@@ -1,0 +1,10 @@
+class Variables{
+    public static void main(String[] args) {
+        int x;
+        int X;
+        int rollNumberStudent;
+        int _X;
+        int String=10;
+        System.out.println(String);
+    }
+}
