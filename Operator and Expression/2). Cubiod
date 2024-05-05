@@ -1,0 +1,18 @@
+//calculation of total area and volume 
+import java.util.Scanner;
+
+class Expression {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int l,b,h;
+        int totalarea,volume;
+        System.out.println("enter l b and h");
+        l=sc.nextInt();
+        b=sc.nextInt();
+        h=sc.nextInt();
+        totalarea=2*(l*b+l*h+b*h);
+        volume=l*b*h;
+        System.out.println("total area"+totalarea);
+        System.out.println("volume"+volume);
+    }
+}
